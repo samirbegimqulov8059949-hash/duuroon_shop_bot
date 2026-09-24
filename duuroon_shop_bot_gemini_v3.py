@@ -15,7 +15,7 @@ Kerakli 3 ta narsa (terminalda export bilan kiritiladi):
 Ishga tushirish:  python3 duuroon_shop_bot_gemini.py
 """
 
-import asyncio import os
+import asyncio 
 from http.server import HTTPServer, BaseHTTPRequestHandler
 import threading
 
