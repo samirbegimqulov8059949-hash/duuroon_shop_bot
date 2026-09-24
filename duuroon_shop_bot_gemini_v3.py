@@ -36,7 +36,7 @@ import json
 import os
 import re
 
-import google.generativeai as genai
+from google import genai
 
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, Update
 from telegram.ext import (Application, CallbackQueryHandler, CommandHandler, ContextTypes,
